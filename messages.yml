@@ -1,0 +1,20 @@
+NO-PERMISSION: "&cYou do not have permission!"
+
+PLAYER-ONLY-COMMAND: "You must be a player to use this command."
+
+GUI-TITLE: "&b&lChatColor."
+
+RESET-SUCCESS: "&b%player%'s data has been reset!"
+
+RELOAD-SUCCESS: "&eReloaded the configuration files in %ms% milisecounds"
+
+INVALID-PLAYER: "&cError: Player not Found."
+
+COLOR-CHANGE: "&aYou have changed your ChatColor to &r%color%this!"
+
+HELP-MESSAGE:
+  - "&d&l&m--------&r&a[&eHelp&a]&d&l&m-------"
+  - "&a/color reset [Name]"
+  - "&a/color reload"
+  - "&a/color help"
+  - "&d&l&m-------------------"

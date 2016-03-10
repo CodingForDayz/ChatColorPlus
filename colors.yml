@@ -1,0 +1,2 @@
+##if the line below is removed the config will be deleted
+newConfig: true

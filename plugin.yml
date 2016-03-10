@@ -1,0 +1,35 @@
+name: ChatColor
+main: uk.CodingForDayz.ChatColorPlus.Main
+version: 1.3
+author: CodingForDayz
+
+commands:
+  chatcolor:
+    description: Opens up the chatcolor GUI.
+    aliases: [color, cc]
+  
+permissions:
+   ChatColor.colors:
+     description: Gives access to all The Colors
+     children:
+       ChatColor.DARK_BLUE: true
+       ChatColor.DARK_GREEN: true
+       ChatColor.CYAN: true
+       ChatColor.DARK_RED: true
+       ChatColor.PURPLE: true
+       ChatColor.GOLD: true
+       ChatColor.LIGHT_GRAY: true
+       ChatColor.DARK_GRAY: true
+       ChatColor.BLUE: true
+       ChatColor.GREEN: true
+       ChatColor.LIGHT_BLUE: true
+       ChatColor.RED: true
+       ChatColor.PINK: true
+       ChatColor.YELLOW: true
+       ChatColor.RESET: true   
+   ChatColor.special:
+     description: Gives access to all The Colors
+     children:
+       ChatColor.BOLD: true
+       ChatColor.RESET: true
+       ChatColor.UNDERLINED: true
